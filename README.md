@@ -24,7 +24,7 @@ To ensure the most reliable result, the program executes a number of tests which
 
 ```
 import (
-    natType "go get github.com/Curtis-Milo/nat-type-identifier-go"
+    natType "github.com/Curtis-Milo/nat-type-identifier-go"
 )
 
 func main() {
@@ -37,6 +37,10 @@ func main() {
 
 `go get github.com/Curtis-Milo/nat-type-identifier-go`
 
+
+## Sponsored by 
+
+This project was sponsored by www.menlolab.com
 ## License
 
 ```

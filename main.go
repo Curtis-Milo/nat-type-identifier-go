@@ -1,4 +1,4 @@
-package main
+package natType
 
 import (
 	"context"
@@ -461,8 +461,4 @@ func GetDeterminedNatType(logging bool, sampleCount int, stunHost string) (strin
 		fmt.Printf("A mode value is selected using a %v test samples as failed responses via UDP can cause inaccurate results.\n", sampleCount)
 	}
 	return determinedNatType, nil
-}
-
-func main() {
-	GetDeterminedNatType(true, 10, "stun.sipgate.net")
 }
